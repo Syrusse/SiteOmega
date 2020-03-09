@@ -1,0 +1,79 @@
+h2.petit{
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.soustitre {
+  color: #F5F5F5;
+  padding-bottom: 9cm;
+}
+
+.petittitre{
+  max-width: 200px;
+  margin-bottom: 5%;
+  margin-right: 80px;
+  float: left;
+  font-weight: 300;
+}
+
+p {
+  font-family: OpenSans;
+  src: url(GoogleSans-Bold.ttf);
+}
+
+p.para1 {
+  float: left;
+  max-width: 350px;
+  padding-left: 20px;
+}
+
+p.para2 {
+  float: right;
+  max-width: 350px;
+  text-align: left;
+}
+
+p.para3 {
+  margin-top: 8.5cm;
+  font-family: OpenSans;
+  text-align: left;
+  font-size: 30px
+}
+
+p.question{
+		text-decoration:underline;
+}
+
+.gauche{
+  text-align: left;
+  font-weight: 500;
+}
+
+.texte_normal{
+  font-weight: 300;
+}
+
+.microscopique{
+  max-width: 150px;
+}
+
+
+.space{
+  margin-bottom: 1.5em;
+}
+
+.espace{
+  padding-bottom: 5em;
+}
+
+div.question{
+		border:2px solid black;
+		padding:10px;
+		margin:10px;
+}
+
+.footer2{
+	position:fixed;
+	bottom:15px;
+	right:50px;
+}

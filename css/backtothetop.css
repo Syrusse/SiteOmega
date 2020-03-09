@@ -1,0 +1,22 @@
+a{
+  color: #f77b7b
+}
+
+.backtotop{
+  text-decoration:none;
+  font-family: GoogleSansItalic;
+}
+
+.backtotop:hover{
+  border-bottom: 4px solid #3de0f2;
+  transition: 0.3s ease;
+}
+
+.backtotop:visited{
+  color: #f77b7b
+}
+
+.ancre{
+  position: absolute;
+  top: -100px
+}

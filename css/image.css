@@ -1,0 +1,31 @@
+img.chatcupcake {
+  width: 100%;
+  height: 100%;
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
+
+img.cl {
+  width: 40%;
+  height: 40%;
+  padding: 3em 3em;
+}
+
+img.cat {
+  width: 20%;
+  height: 20%;
+  margin: 1cm 1cm;
+}
+
+img.minicat {
+  width: 7%;
+  height: 7%;
+  padding-top: 3em;
+  padding-bottom: 0.5em;
+}
+
+img.miniscule {
+  margin-top: 1cm;
+  width: 7%;
+  height: 7%;
+}

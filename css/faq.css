@@ -1,0 +1,26 @@
+.footer{
+	position:absolute;
+	bottom:0;
+}
+.backtoto{
+	background-color:blue;
+  text-decoration:none;
+  font-family: GoogleSansItalic;
+}
+
+.backtoto:hover{
+  border-bottom: 4px solid #3de0f2;
+  transition: 0.3s ease;
+}
+
+.backtoto:visited{
+  color: #f77b7b
+}
+
+.ancre{
+  position: absolute;
+  top: -100px
+}
+#q7{
+	margin-bottom:2cm;
+}

@@ -1,0 +1,46 @@
+.case {
+  margin-bottom: 20px;
+  width: 300px;
+  height: 36px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #AAA;
+  transition: 0.2s ease;
+
+}
+
+.case:focus {
+ border-bottom: 2px solid #f77b7b;
+ color: #f77b7b;
+ transition: 0.2s ease;
+}
+
+.selection{
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #AAA;
+  font-family: GoogleSans
+}
+
+.selection:hover{
+  border-bottom: 2px solid #f77b7b;
+  transition: 0.2s ease;
+}
+
+
+textarea{
+  font-family: GoogleSansItalic;
+  outline: none;
+  width: 70%;
+  box-shadow: 2px 2px 8px #888888;
+}
+
+textarea:focus {
+  border: 1px solid #f77b7b;
+}
+
+fieldset.fieldset1 {
+	text-align: center;
+  margin:0 auto;
+  max-width:600px;
+}

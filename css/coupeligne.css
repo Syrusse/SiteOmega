@@ -1,0 +1,19 @@
+hr.style1{
+	border-top: 2px solid #DCDCDC;
+}
+
+hr.style2{
+	border-top: 1px solid #DCDCDC;
+}
+
+hr.style3{
+  margin-top: 2cm;
+  margin-bottom: 2cm;
+	border-top: 1px solid #DCDCDC;
+}
+
+hr.style4{
+	margin-top: 3cm;
+	margin-bottom: 3cm;
+	border-top: 2px solid #DCDCDC;
+}

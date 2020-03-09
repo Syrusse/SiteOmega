@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/Overall.css" >
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/case.css" />
+		<link rel="stylesheet" type="text/css" href="css/backtothetop.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/texte.css" />
+		<link rel="stylesheet" type="text/css" href="css/coupeligne.css" />
+		<link rel="stylesheet" type="text/css" href="css/image.css" />
+		<link rel="stylesheet" type="text/css" href="css/liste.css" />
+		<link rel="stylesheet" type="text/css" href="css/bouton.css">
+		<title>La presse</title>
+		<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script>
+		$(document).ready(function(){
+		$('.burger').click(function() {
+		$('.navis').toggleClass('open');
+		});});
+		</script>
+	</head>
+	<div class="header">
+		<div class="burger"> <img src="images/burger.png" alt="menu" width="50"> </div>
+		<div id="clogo1">
+			<img id="logo1" src="images/background.png" alt="logo">
+			<div id="ctext">
+		</div>
+	</div>
+
+	</div>
+	<div class="navis">
+					<div class="link"> <a href="Produit.html"> Accueil </a> </div>
+					<div class="link"> <a href="Contact.html"> Contact </a> </div>
+					<div class="link"> <a href="Equipe.html"> Equipe </a> </div>
+					<div class="link"> <a href="Presse.html"> Presse </a> </div>
+					<div class="link"> <a href="Nous_rejoindre.html"> Join Us </a> </div>
+					<div class="link"> <a href="FAQ.html"> F.A.Q.</a> </div>
+	</div>
+
+		<form action="/formulaire.php" method="post">
+			<h1 class="titre"> Contact </h1>
+			<div class="soustitre"> Une question ? Nous adorerons en entendre plus de votre part ! <br>
+			Envoyez nous votre message et nous y répondrons aussi vite que possible =) </div> <br>
+
+			<fieldset class="fieldset1">
+				<legend>Informations personnelles:</legend>
+				 <br>
+				 <input id="nom" placeholder="Nom" class="case"
+				 pattern="[A-Za-z]{0,16}">
+				 <br> <br>
+				 <input id="prenom" placeholder="Prénom" class="case"
+				 pattern="[A-Za-z]{0,16}">
+				 <br> <br>
+				 <input id="mail" placeholder="Email (obligatoire)"
+				 required pattern="[a-z0-9._-]+@[a-z0-9.-]+\.[a-z]{2,4}" class="case">
+				 <br> <br>
+				 <input id="cp" placeholder="Code Postal"
+				 pattern="[0-9]{2,5}" class="case">
+				 <br> <br>
+				 <input id="ville" placeholder="Ville (obligatoire)" class="case"
+				 required pattern="[A-Za-z]{1,16}">
+				 <br> <br>
+
+				 De quel pays provenez vous ?
+					<select class="selection" >
+						<option>France</option>
+						<option>Allemagne</option>
+						<option>Belgique</option>
+						<option>Espagne</option>
+						<option>Luxembourg</option>
+						<option>Suisse</option>
+						<option>Ailleurs</option>
+					</select>
+			    <br> <br>
+
+			</fieldset>
+			<br> <br>
+
+			<div class=texte_normal> Vous avez entendu parler de nous via...
+				<select class=selection >
+					<option>Internet</option>
+					<option value="1">Publicité</option>
+					<option value="2">Un truc</option>
+					<option value="3">Et un autre</option>
+				</select>
+				<br> <br>
+			</div>
+
+			<br><br>
+
+			<div> Quand voudriez-vous être recontacté ?
+				<input class=selection type="date"  value="2019-01-10">
+			</div>
+
+				<br>
+
+			<h3 class=texte_normal> Que voudriez-vous nous dire ? </h3>
+
+			<textarea placeholder="Votre message..." rows="5" ></textarea>
+			<br><br>
+
+			<input type="submit" value="Envoyer" class="link linkbis" >
+
+			<footer>
+		<a class="backtotop" href=#top><img src=images/backtotop.png alt="" class="miniscule"></a>
+			</footer>
+		</form>
+</html>
