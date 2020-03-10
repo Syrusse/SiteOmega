@@ -4,4 +4,4 @@ Notre tout premier projet (collaboratif) au sein de l'IUT, il s'agit d'un site v
 
 Les auteurs sont Nassim Ezzaamari, Tony Nguyen et William Vialla.
 
-Voici l'URL du site : 
+Voici l'URL du site : http://webinfo.iutmontp.univ-montp2.fr/~ezzaamarin/SiteOmega/Produit.html
